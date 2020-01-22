@@ -9,7 +9,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Portfolio',
-      theme: ThemeData(),
+      theme: ThemeData(
+        primaryColor: Color.fromARGB(255, 17, 49, 49),
+      ),
       home: MyHomePage(),
     );
   }
@@ -34,7 +36,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if(_selectedLanguage != 0){
       _name = "Karakaš Miloš";
-      _centerText = "Izrada u toku.";
+      
+      if(_selectedLanguage == 1)
+        _centerText = "Izrada u toku.";
+      else
+        _centerText = "Work in progress.";
     }
     else {
       _name = "Каракаш Милош";
@@ -61,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   "АБВ",
                   style: TextStyle(
-                      color: (_selectedLanguage==0)?Colors.white:Color(0xffe7eaee),
+                      color: (_selectedLanguage==0)?Colors.white:Color(0x88e7eaee),
                       fontWeight: FontWeight.w700,
                       fontSize: 12
                   ),
@@ -81,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   "ABC",
                   style: TextStyle(
-                      color: (_selectedLanguage==1)?Colors.white:Color.fromARGB(255, 17, 49, 80),
+                      color: (_selectedLanguage==1)?Colors.white:Color(0x88e7eaee),
                       fontWeight: FontWeight.w700,
                       fontSize: 12
                   ),
@@ -101,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Text(
                   "ENG",
                   style: TextStyle(
-                      color: (_selectedLanguage==2)?Colors.white:Color.fromARGB(255, 17, 49, 49),
+                      color: (_selectedLanguage==2)?Colors.white:Color(0x88e7eaee),
                       fontWeight: FontWeight.w700,
                       fontSize: 12
                   ),
