@@ -52,12 +52,15 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.black12,
         elevation: 0,
-        title: Text(
-          _name,
-          style: TextStyle(
-              color: Colors.white,
-              fontSize: 16,
-              fontWeight: FontWeight.w700
+        title: Container(
+          width: double.infinity,
+          child: Text(
+            _name,
+            style: TextStyle(
+                color: Colors.white,
+                fontSize: 16,
+                fontWeight: FontWeight.w700
+            ),
           ),
         ),
         titleSpacing: 12,
