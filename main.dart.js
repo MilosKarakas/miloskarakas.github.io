@@ -6765,13 +6765,14 @@ _.a=l},
 A8:function A8(a){this.a=a},
 w4:function w4(){},
 Ke:function Ke(){},
-kI:function kI(a,b,c,d,e,f){var _=this
+kI:function kI(a,b,c,d,e,f,g){var _=this
 _.e=a
 _.f=b
 _.y=c
 _.Q=d
-_.go=e
-_.a=f},
+_.fr=e
+_.go=f
+_.a=g},
 nR:function nR(a){this.a=null
 this.b=a
 this.c=null},
@@ -22736,8 +22737,8 @@ t=a0.f
 j=Y.Cy(new T.uw(C.B,C.k1,C.oe,C.dq,e,C.l_,e,t,e),r)
 a0=a0.zy(d)
 t=f.a
+a0=Y.Cy(L.qC(new E.tc(m,l,j,a0,t.fr,e),e,C.bM,!0,n,e),s)
 t.toString
-a0=Y.Cy(L.qC(new E.tc(m,l,j,a0,16,e),e,C.bM,!0,n,e),s)
 i=Q.Uw(new T.qc(new T.l6(C.lY,a0,e),e),!0)
 h=d.d
 g=h===C.R?C.rC:C.rD
@@ -33242,7 +33243,7 @@ t.push(Y.T3(!1,H.b([new U.b3(r,!1,!0,r,r,r,!1,[s],r,C.k,r,!1,!1,r,C.q)],u.p),"Th
 t.push(new U.lq("",!1,!0,r,r,r,!1,r,C.x,C.k,"",!0,!1,r,C.aS))
 return!1}return!0}}
 F.t6.prototype={
-O:function(a){return new S.me(new F.mp(null),"Portfolio",X.PA(null,P.aP(255,17,49,49)),!1,null)}}
+O:function(a){return new S.me(new F.mp(null),"miloskarakas",X.PA(null,P.aP(255,17,49,49)),!1,null)}}
 F.mp.prototype={
 aO:function(){return new F.x5(C.p)}}
 F.x5.prototype={
@@ -33255,7 +33256,7 @@ t=L.nx(q.e,A.eG(p,p,C.j,p,p,p,p,p,p,p,p,16,p,C.at,p,p,!0,p,p,p,p,p,p))
 s=D.lB(p,M.l2(p,new T.dE(C.P,p,p,L.nx("\u0410\u0411\u0412",A.eG(p,p,q.d===0?C.j:new P.F(o),p,p,p,p,p,p,p,p,12,p,C.at,p,p,!0,p,p,p,p,p,p)),p),p,p,p,new V.ax(6,6,6,6),p,p),C.a3,!1,p,p,p,p,p,p,p,p,p,p,new F.Ji(q),p,p,p,p)
 r=D.lB(p,M.l2(p,new T.dE(C.P,p,p,L.nx("ABC",A.eG(p,p,q.d===1?C.j:new P.F(o),p,p,p,p,p,p,p,p,12,p,C.at,p,p,!0,p,p,p,p,p,p)),p),p,p,p,new V.ax(6,6,6,6),p,p),C.a3,!1,p,p,p,p,p,p,p,p,p,p,new F.Jj(q),p,p,p,p)
 s=H.b([s,r,D.lB(p,M.l2(p,new T.dE(C.P,p,p,L.nx("ENG",A.eG(p,p,q.d===2?C.j:new P.F(o),p,p,p,p,p,p,p,p,12,p,C.at,p,p,!0,p,p,p,p,p,p)),p),p,p,p,new V.ax(6,6,12,6),p,p),C.a3,!1,p,p,p,p,p,p,p,p,p,p,new F.Jk(q),p,p,p,p)],u.E)
-return new M.n3(new E.kI(t,s,0,C.ja,new P.ap(1/0,56),p),new T.dE(C.P,p,p,L.nx(q.f,A.eG(p,p,P.aP(127,255,255,255),p,p,p,p,p,p,p,p,40,p,C.jm,p,p,!0,p,p,p,p,p,p)),p),n,p)}}
+return new M.n3(new E.kI(t,s,0,C.ja,12,new P.ap(1/0,56),p),new T.dE(C.P,p,p,L.nx(q.f,A.eG(p,p,P.aP(127,255,255,255),p,p,p,p,p,p,p,p,40,p,C.jm,p,p,!0,p,p,p,p,p,p)),p),n,p)}}
 F.Ji.prototype={
 $0:function(){var t=this.a
 t.aI(new F.Jh(t))},

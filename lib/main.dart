@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Portfolio',
+      title: 'miloskarakas',
       theme: ThemeData(
         primaryColor: Color.fromARGB(255, 17, 49, 49),
       ),
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if(_selectedLanguage != 0){
       _name = "Karakaš Miloš";
-      
+
       if(_selectedLanguage == 1)
         _centerText = "Izrada u toku.";
       else
@@ -60,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               fontWeight: FontWeight.w700
           ),
         ),
+        titleSpacing: 12,
         actions: <Widget>[
           GestureDetector(
             child: Container(
