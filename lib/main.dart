@@ -67,6 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
         actions: <Widget>[
           GestureDetector(
             child: Container(
+              width: 40,
+              height: 40,
               child: Center(
                 child: Text(
                   "АБВ",
@@ -87,6 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           GestureDetector(
             child: Container(
+              width: 40,
+              height: 40,
               child: Center(
                 child: Text(
                   "ABC",
@@ -107,6 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           GestureDetector(
             child: Container(
+              width: 40,
+              height: 40,
               child: Center(
                 child: Text(
                   "ENG",
