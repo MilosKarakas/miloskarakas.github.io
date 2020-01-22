@@ -1,4 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() => runApp(MyApp());
 
@@ -50,20 +52,16 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 17, 49, 49),
       appBar: AppBar(
-        backgroundColor: Colors.black12,
-        elevation: 0,
-        title: Container(
-          width: double.infinity,
-          child: Text(
-            _name,
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 16,
-                fontWeight: FontWeight.w700
-            ),
+        backgroundColor: Colors.black26,
+        title: Text(
+          _name,
+          style: TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.w700
           ),
         ),
-        titleSpacing: 12,
+        centerTitle: true,
         actions: <Widget>[
           GestureDetector(
             child: Container(
@@ -146,3 +144,87 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+/*
+elevation: 0,
+title: Container(
+width: double.infinity,
+child: Text(
+_name,
+style: TextStyle(
+color: Colors.white,
+fontSize: 16,
+fontWeight: FontWeight.w700
+),
+),
+),
+titleSpacing: 12,
+actions: <Widget>
+[
+GestureDetector(
+child: Container(
+width: 40,
+height: 40,
+child: Center(
+child: Text(
+"АБВ",
+style: TextStyle(
+color: (_selectedLanguage==0)?Colors.white:Color(0x88e7eaee),
+fontWeight: FontWeight.w700,
+fontSize: 12
+),
+),
+),
+margin: EdgeInsets.all(6),
+),
+onTap: (){
+setState(() {
+_selectedLanguage=0;
+});
+},
+),
+GestureDetector(
+child: Container(
+width: 40,
+height: 40,
+child: Center(
+child: Text(
+"ABC",
+style: TextStyle(
+color: (_selectedLanguage==1)?Colors.white:Color(0x88e7eaee),
+fontWeight: FontWeight.w700,
+fontSize: 12
+),
+),
+),
+margin: EdgeInsets.all(6),
+),
+onTap: (){
+setState(() {
+_selectedLanguage=1;
+});
+},
+),
+GestureDetector(
+child: Container(
+width: 40,
+height: 40,
+child: Center(
+child: Text(
+"ENG",
+style: TextStyle(
+color: (_selectedLanguage==2)?Colors.white:Color(0x88e7eaee),
+fontWeight: FontWeight.w700,
+fontSize: 12
+),
+),
+),
+margin: EdgeInsets.only(top: 6, bottom: 6, left: 6, right: 12),
+),
+onTap: (){
+setState(() {
+_selectedLanguage=2;
+});
+},
+)
+],*/
