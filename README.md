@@ -1,6 +1,6 @@
 # portfolio_app_final
 
-Portfolio napravljen u Flutteru
+Portfolio, made in Flutter. Still under construction.
 
 ## Getting Started
 
